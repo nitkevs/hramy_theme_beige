@@ -1,0 +1,23 @@
+name: hramy_theme_beige
+type: theme
+base theme: classy
+description: 'Тема для сайта Храмы Бердянска, основанная на classy.'
+package: core
+# version: VERSION
+core: 8.x
+libraries:
+  - hramy_theme_beige/global-components
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+
+# Information added by Drupal.org packaging script on 2020-03-04
+version: '8.8.3'
+project: 'drupal'
+datestamp: 1589118414

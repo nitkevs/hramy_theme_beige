@@ -265,6 +265,9 @@ font-size: 18px;margin-bottom: 20px;
   float: right;
   width: 73%;
 }
+.layout-content * {
+  box-sizing: border-box;
+}
 
 .layout-content a {
   border-bottom: 1px dashed #aaa;
@@ -275,6 +278,43 @@ font-size: 18px;margin-bottom: 20px;
   border-bottom: 1px dashed #aaa;
   color: #3f5765;
 }
+
+    /* Gallery */
+
+a.colorbox {
+  border: none;
+}
+
+a.colorbox img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #e0d7c8;
+  background-color: #f4f1eb;
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+
+.field--type-image {
+  text-align: center;
+  font-size: 0;
+  letter-spacing: 0;
+  line-height: 0;
+}
+
+.field--type-image .field__item {
+  display: inline-block;
+}
+
+.field--name-field-small-tempel-s-images .field__item {
+  max-width: calc(50% - 5px);
+  line-height: 0;
+}
+
+.field--name-field-small-tempel-s-images .field__item:first-child {
+  margin-right: 10px;
+}
+
+    /* End of gallery */
 
 .region-content {
   padding-right: 10px;

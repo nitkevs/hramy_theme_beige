@@ -305,12 +305,17 @@ a.colorbox img {
   display: inline-block;
 }
 
-.field--name-field-small-tempel-s-images .field__item {
+.field--type-image .field__item {
   max-width: calc(50% - 5px);
   line-height: 0;
 }
 
-.field--name-field-small-tempel-s-images .field__item:first-child {
+.field--type-image .field__item:first-child {
+  width: 100%;
+  max-width: 100%;
+}
+
+.field--type-image .field__item:nth-child(2) {
   margin-right: 10px;
 }
 

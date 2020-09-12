@@ -18,6 +18,5 @@ regions:
   footer: 'Footer'
 
 # Information added by Drupal.org packaging script on 2020-03-04
-version: '8.8.3'
-project: 'drupal'
-datestamp: 1589118414
+version: '1.0.2'
+
